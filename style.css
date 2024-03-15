@@ -1,0 +1,104 @@
+.navbar {
+	background-color: #1E90FF !important;
+	font-size:20px;
+}
+.nav-link, .navbar-brand {
+	color:#ffffff;
+}
+.nav-link:hover {
+	color: black;
+}
+.youtube-video {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
+header { 
+		background-color:#6495ED;
+		padding:13px;
+}
+h1 {
+	font-family:georgia;
+	color:white;
+}
+table, td, th {
+				border:2px solid black;
+				border-spacing: 0;
+ }
+ table {
+		width: 80%;
+		padding:15px;
+ }
+
+ th {
+	font-family: Monaco;
+	font-size:22px;
+	text-align: center;
+	color:red;
+ }
+ td {
+	 font-family:Verdana;
+	 font-size:16px;
+	 text-align: center;
+ }	 
+ th, td {
+	padding: 20px 30px;
+ }
+p {
+	font-family:Verdana;
+	background-color:#FFE4B5;
+	color:#191970;
+	font-size:22px;
+	text-align: center;
+	padding: 15px;
+}
+ input[type=text], select, textarea {
+  width: 100%; 
+  padding: 5px;
+  border: 2px solid black;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 2px; 
+  margin-bottom: 16px; 
+  resize: vertical
+}
+input[type=submit] {
+  background-color: #0000CD;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #191970;
+}
+
+.button {
+  border: none;
+  color: blue;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color:  #1E90FF;
+  color: white;
+  border: 2px solid black;
+}
+
+.button1:hover {
+  background-color: #6495ED;
+  color: white;
+}
+input[type=button]{
+  background-color:#6495ED;
+  color: white;
+  padding: 8px 20px;
+  margin: 4px 2px;
+}
